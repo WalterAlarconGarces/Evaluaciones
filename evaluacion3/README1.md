@@ -35,6 +35,6 @@ ingrese incremento
 su nuevo saliario sería 1050
 ```
 
-## Authors
+## Autor
 
 - [@WalterAlarconGarces](https://github.com/WalterAlarconGarces)
