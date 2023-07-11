@@ -1,0 +1,8 @@
+body {
+    background-image: url("/assets/img/background.gif");
+    background-size: cover;
+}
+.card {
+    width: 18rem;
+    margin-bottom: 1rem;
+}
