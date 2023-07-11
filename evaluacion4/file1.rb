@@ -88,4 +88,6 @@ web_completa = codigo_html_primero + buid_web_page(request(Enlace)) + codigo_htm
 
 File.write("index.html",web_completa)
 
-puts "la web está ahora disponible en https://walteralarcongarces.github.io/Evaluaciones/evaluacion4/"
+puts "el archivo HTML está ahora disponible en el mismo directorio que este archivo"
+
+#la web está ahora disponible en https://walteralarcongarces.github.io/Evaluaciones/evaluacion4/
