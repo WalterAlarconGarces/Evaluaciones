@@ -25,16 +25,18 @@ def buid_web_page(hash_entrada)
   tarjetas = ""
   hash_entrada.map{|dato|
     tarjetas= tarjetas + "
+    <div class='col'>
     <div class='card'>
     <img src=#{dato["img_src"]} class='card-img-top'>
     <div class='card-body'>
-        <h5 class='card-title'>`#{dato["name"]}`</h5>
-        <p class='card-text'>`#{dato["camera"]["full_name"]}`</p>
+        <h5 class='card-title'>`#{dato["camera"]["name"]}, SOL #{dato["sol"]}`</h5>
+        <p class='card-text'>`#{dato["camera"]["full_name"]}, ID #{dato["id"]}`</p>
     </div>
     <ul class='list-group list-group-flush'>
         <li class='list-group-item'>Fecha de la tierra</li>
         <li class='list-group-item'>`#{dato["earth_date"]}`</li>
     </ul>
+</div>
 </div>
     "
   }
