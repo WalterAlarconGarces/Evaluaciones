@@ -19,9 +19,7 @@ end
 
 #Parent hereda de la clase Person
 class Parent < Person
-  def initialize(first_name, last_name, age)
-    super(first_name, last_name, age)
-  end
+  
   #a continuacion los metodos talk e introduce para Parent
   def talk
     puts '¿Aquí es la reunión de apoderados?'
@@ -34,9 +32,7 @@ end
 
 #Aqui defino Student como heredero de Parent
 class Student < Parent
-  def initialize(first_name, last_name, age)
-    super(first_name, last_name, age)
-  end
+  
 #a continuacion los metodos talk e introduce
   def talk
     puts '¿Aquí es la clase de programación con Ruby?'
@@ -50,9 +46,7 @@ end
 
 #aqui defino Teacher como heredero de persona
 class Teacher < Person
-  def initialize(first_name, last_name, age)
-    super(first_name, last_name, age)
-  end
+  
 #a continuacion los metodos talk e introduce
   def talk
     puts 'Bienvenidos a la clase de programación con Ruby!'
