@@ -62,3 +62,18 @@ class Teacher < Person
     puts "Hola alumnos. Mi nombre es #{@first_name} #{@last_name}."
   end
 end
+
+
+
+mama = Parent.new('Blanca', 'Nieves', 45)
+mama.introduce
+mama.talk
+
+
+alumno = Student.new('Juan', mama.last_name, 15)
+alumno.introduce
+alumno.talk
+
+profe = Teacher.new('Alejandro', 'Torres', 53)
+profe.introduce
+profe.talk
